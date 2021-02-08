@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+        <title>Consultoria Six Sigma</title>
+        <link rel=icon href="imagens/favicon.png" sizes="10x10"  type="image/png">
+        <meta charset="utf-8">
+        <!--Mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <!--For Font-Aswesome Icons-->
+        <link rel="stylesheet" href="https://cdnj.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+        
+        
+</head>
+<body onload = "atendimento()">
+    <nav  class="navbar navbar-expand-sm bg-dark navbar-dark ">
+        <a id="imglogo" class="navbar-brand" href="#"><img src="imagens/logo.png" width="30px" alt=""></a>
+            <!--Recolhendo a barra. init-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <!--Recolhendo a barra. end-->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">   
+        <ul class="navbar-nav ml-auto" style="margin-right: 100px;">
+                        <li id="link" class="nav-item ">
+                          <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="sobre.html">Sobre</a>
+                        </li>
+                        <!--<li class="nav-item">
+                          <a class="nav-link" href="portifolio.html">Portifólio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                          </li>-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Contato</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="trabalhe.html">Trabalhe Comigo</a>
+                                <a class="dropdown-item active" href="orcamento.html">Faça um orçamento</a>
+                                <a class="dropdown-item " href="newsletter.html">Assinar Newsletter</a>
+                            </div>
+                        </li>
+                      </ul> 
+                   </div>
+        </nav>
+        <div class="container" id="newsletter" >
+          <div id="comp"><h2 id="comp">BOM DIA</h2></div>
+          <img src="imagens/Eu.png" width="100px">
+          <h1 id="newsletter">ME CHAMA NO <strong id="moment" style="color: #f07833;">CHAT.</strong></h1>
+          <div class="progress" style="height:30px">
+            <div id="horario" class="progress-bar " style="width:80%">...</div>
+            
+          </div><br>
+          <h3><div id="msg">aqui vai aparecer a mensagem</div></h3>
+
+          <div id="contato">
+            <div class="row">
+              <div class="col-sm-2"></div>
+              <div class="col-sm-2"><section><a href="tel:+75981538623" ><img src="imagens/telefone.png" width="50px" alt=""></a></section></div>
+              <div class="col-sm-2"><section><a href="https://wa.me/5575981538623?text=sua%20mensagem" target="_blank"><img src="imagens/whats.png" width="50px" alt=""></a></section></div>
+              <div class="col-sm-2"><section><a href="https://www.linkedin.com/in/romilson-cavalcante-0b50b7189/" target="_blank"><img src="imagens/linked.png" width="50px" alt=""></a></section></div>
+              <div class="col-sm-2"><section><a href="mailto:rc.eng.prod@outlook.com.br?subject=Assunto" ><img src="imagens/email.png" width="50px" alt=""></a></section></div>
+              <div class="col-sm-2"></div>
+            </div>
+          </div>
+          
+          <script src="//code.jivosite.com/widget/gz6ecJuvMj" async></script>
+          <script src="javascript/atendimento.js"></script>
+</div>
+
+<!--Footer
+  <footer id="newsletter" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-3"><p ></p></div>  
+    <div class="col-sm-6"><p id="cont1">Copyright 2021. Romilson Cavalcante - Consultor Master Black Belt</p></div>
+    <div class="col-sm-3"><p></p></div>
+  </div>
+  
+  </footer>
+-->
+</body>
+</html>
