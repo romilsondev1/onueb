@@ -75,6 +75,11 @@ span#multi{
     color: #ED254E;
 }
 
+a#adquira{
+    text-decoration: none;
+    color: #ED254E;
+}
+
 }
 
 
@@ -127,6 +132,28 @@ span#multi{
     a#saiba{
         text-decoration: none;
     }
+
+    #corpo2{
+        text-align: center;
+    }
+
+    h1#corpo2{
+        margin-top: 50px;
+    }
+    
+    img#cel{
+        padding-top: 50px;
+    }
+    
+    span#multi{
+        color: #ED254E;
+    }
+    
+    a#adquira{
+        text-decoration: none;
+        color: #ED254E;
+    }
+    
 
 
 }
@@ -181,6 +208,29 @@ span#multi{
     a#saiba{
         text-decoration: none;
     }
+
+    #corpo2{
+        text-align: center;
+    }
+
+    h1#corpo2{
+        margin-top: 50px;
+        font-size: 24px;
+    }
+    
+    img#cel{
+        padding-top: 50px;
+    }
+    
+    span#multi{
+        color: #ED254E;
+    }
+    
+    a#adquira{
+        text-decoration: none;
+        color: #ED254E;
+    }
+    
 
 
 }
