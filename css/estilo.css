@@ -1,10 +1,29 @@
+@font-face {
+    font-family: GOTHAM;
+     src: url(../fonte/GOTHAM.TTF);
+ }
+
+ h2{
+     font-family: GOTHAM;
+ }
+ h1{
+     font-family: GOTHAM;
+ }
+
+ @media (min-width: 1001px){
+
+#divnav{
+    background-color: #ED254E;
+}
+
 nav{
-    background-color: #EFEFEF;
+    background-color: #ED254E;
 }
 
 #nav a{
-    color:#333333;
-    font-size: 14px;
+    color:white;
+    font-size: 17px;
+    font-family: GOTHAM;
 }
 
 a#imglogo{
@@ -14,8 +33,9 @@ a#imglogo{
 #corpo1{
     background-image: url(../imagens/capa.png);
     width: 100%;
-    height: 600px;
-    background-repeat: repeat-x;
+    height: 100%;
+    background-color: #ED254E;
+    background-repeat: no-repeat;
 }
 
 div #seta{
@@ -23,7 +43,144 @@ div #seta{
     padding-top: 200px;
 }
 
-#corpo1 h1{
+#corpo1 h1 {
     text-align: right;
     padding-top: 200px;
+    color:white;
+    font-family: GOTHAM;
+}
+
+#corpo1 h5 {
+    text-align: right;
+    color: white;
+}
+
+#corpo1{
+    height: 600px;
+}
+
+a#saiba{
+    text-decoration: none;
+}
+
+h1#corpo2{
+    margin-top: 200px;
+}
+
+img#cel{
+    padding-top: 50px;
+}
+
+span#multi{
+    color: #ED254E;
+}
+
+}
+
+
+
+@media (max-width: 1000px){
+
+    #divnav{
+        background-color: #ED254E;
+    }
+    
+
+    nav{
+        background-color: #ED254E;
+    }
+    
+    #nav a{
+        color:white;
+        font-size: 17px;
+        font-family: GOTHAM;
+    }
+    
+    a#imglogo{
+        padding-left: 10px;
+    }
+    
+    #corpo1{
+        
+        width: 100%;
+        height: 100%;
+        background-color: #ED254E;
+        background-repeat: no-repeat;
+    }
+    
+    div #seta{
+        text-align: center;
+        padding-top: 200px;
+    }
+    
+    #corpo1 h1 {
+        padding-top: 100px;
+        color:white;
+        font-family: GOTHAM;
+    }
+    
+    #corpo1 h5 {
+        color: white;
+        padding-bottom: 220px;
+    }
+
+    a#saiba{
+        text-decoration: none;
+    }
+
+
+}
+
+
+
+@media (max-width: 280px){
+
+    #divnav{
+        background-color: #ED254E;
+    }
+
+    nav{
+        background-color: #ED254E;
+    }
+    
+    #nav a{
+        color:white;
+        font-size: 17px;
+        font-family: GOTHAM;
+    }
+    
+    a#imglogo{
+        padding-left: 10px;
+    }
+    
+    #corpo1{
+        width: 100%;
+        height: 100%;
+        background-color: #ED254E;
+        background-repeat: no-repeat;
+    }
+    
+    div #seta{
+        text-align: center;
+        padding-top: 200px;
+    }
+    
+    #corpo1 h1 {
+        padding-top: 100px;
+        color:white;
+        font-family: GOTHAM;
+        font-size: 24px;
+    }
+    
+    #corpo1 h5 {
+        color: white;
+        padding-bottom: 100px;
+        font-size: 16px;
+    }  
+
+    a#saiba{
+        text-decoration: none;
+    }
+
+
 }
