@@ -27,10 +27,10 @@
         <script src="javascript/function.js"></script>
         
 </head>
-<body>
+<header>
   <div id="divnav" class="container-fluid">
-    <nav id="nav" class="navbar navbar-expand-sm  navbar-dark ">
-        <a id="imglogo" class="navbar-brand" href="#"><img src="imagens/logo.png" width="38px" alt=""></a>
+    <nav id="nav" class="navbar navbar-expand-sm fixed-top navbar-dark ">
+        <a id="imglogo" class="navbar-brand" href="#"><img src="imagens/fav.png" width="38px" alt=""></a>
             <!--Recolhendo a barra. init-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -41,11 +41,17 @@
                         <li id="link" class="nav-item active">
                           <a class="nav-link" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="sobre.html">Sobre</a>
+                        <li class="nav-item ">
+                          <a class="nav-link" href="#corpo2">Produtos</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="portifolio.html">Portifólio</a>
+                          <a class="nav-link" href="#meta">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#cases">Cases de sucesso</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#ferramentas">Ferramentas</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="calculadora.html">Orçamento</a>
@@ -62,6 +68,9 @@
                    </div>
         </nav>
       </div>
+</header>
+<body>
+  <div id="espaconav"></div>
 <!--Corpo1-->
 <div class="container-fluid" id="corpo1">
 <div>
@@ -90,7 +99,55 @@
 </div>
 </div>
 
+<!--corpo3-->
+<div id="corpo3" class="container-fluid">
+  <div id="meta">
+  </div>
+  <div class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-3"><img src="imagens/mulher.png" width="450px" alt=""></div>
+    <div class="col-sm-3"></div>
+    <div class="col-sm-4"><h1 id="corpo3">Nossa meta é <br>te entregar<br><span id="multi">resultados</span>, não<br> vendemos só<br> serviços,<br>  vendemos<br> soluções.</h1>
+    
+      <a id="adquira" href="orcamento.html"><h5>Peça sua solução<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+      </svg></h5></a></div>
+
+    <div class="col-sm-1"></div>
+  </div>
 
 </div>
+
+<!---Corpo4-->
+<div id="cases" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-5"><img id="site1" src="imagens/site1.png" class="img-fluid" alt=""></div>
+    <div class="col-sm-1"></div>
+    <div class="col-sm-5"><h1 id="corpo3">Muitas empresas<br>já tiveram<br>seus <span id="multi">resultados</span><br> transformados<br> conosco.<br></h1>
+    
+      <a id="adquira" href="#"><h5>Veja algumas delas<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+      </svg></h5></a></div>
+    
+  </div>
+</div>
+
+<!---Corpo5-->
+
+<div id="ferramentas" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-4"><h1 id="ferr">Usamos as<br>ferramentas<br>mais <span id="completas">completas</span><br> do mercado.<br> </h1>
+    
+      <a id="conhecer" href="#"><h5>Vem comigo para saber mais<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+      </svg></h5></a></div>
+    <div class="col-sm-1"></div>
+    <div class="col-sm-6"><img src="imagens/wordpress.png" class="img-fluid" alt=""></div>
+  </div>
+</div>
+
+
 </body>
 </html>

@@ -12,12 +12,16 @@
 
  @media (min-width: 1001px){
 
+body{
+    margin-top: 60px;
+}
+
 #divnav{
-    background-color: #ED254E;
+    background-color: #000000;
 }
 
 nav{
-    background-color: #ED254E;
+    background-color: #000000;
 }
 
 #nav a{
@@ -68,7 +72,8 @@ h1#corpo2{
 }
 
 img#cel{
-    padding-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 span#multi{
@@ -80,19 +85,59 @@ a#adquira{
     color: #ED254E;
 }
 
+div#meta{
+    text-align: center;
+    padding-top: 50px;
+}
+
+div#corpo3{
+    background-color: rgba(230, 231, 231, 0.300);
+    padding-bottom: 50px;
+}
+
+h1#corpo3{
+    margin-top: 100px;
+}
+
+img#site1{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+div#cases{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#ferramentas{
+    background-color: #ED254E;
+}
+
+h1#ferr{
+    color: white;
+    margin-top: 200px;
+}
+
+a#conhecer{
+    color: white;
+}
+
 }
 
 
 
 @media (max-width: 1000px){
 
+    body{
+        margin-top: 60px;
+    }
+
     #divnav{
-        background-color: #ED254E;
+        background-color: #000000;
     }
     
-
     nav{
-        background-color: #ED254E;
+        background-color: #000000;
     }
     
     #nav a{
@@ -162,12 +207,16 @@ a#adquira{
 
 @media (max-width: 280px){
 
-    #divnav{
-        background-color: #ED254E;
+    body{
+        margin-top: 60px;
     }
 
+    #divnav{
+        background-color: #000000;
+    }
+    
     nav{
-        background-color: #ED254E;
+        background-color: #000000;
     }
     
     #nav a{
@@ -185,6 +234,7 @@ a#adquira{
         height: 100%;
         background-color: #ED254E;
         background-repeat: no-repeat;
+        
     }
     
     div #seta{
