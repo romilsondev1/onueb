@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-        <title>Onueb - Home - Onueb criação de sites</title>
+        <title>Onueb - Produtos - Desenvolvimento website</title>
         <link rel=icon href="imagens/fav.png" sizes="15x15"  type="image/png">
         <meta charset="utf-8">
         <meta name="description" content="A Onueb é a agência de criação de site mais completa para 
-        sua empresa, conte conosco para criar um site lindo. Onueb. Criação de sites.">
+        sua empresa, conheça o que oferecemos. sites em wordpress.">
+        <meta name=”robots” content=”noindex”>
+        <meta name="keywords" content="website,"/>
+        <meta name=”creator” content=”Onueb”>
         <!--Mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -25,13 +28,14 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
         <link rel="stylesheet" type="text/css" href="css/estilo.css">
+        <link rel="stylesheet" type="text/css" href="css/portifolio.css">
 
         <script src="javascript/function.js"></script>
         
 </head>
 <header>
-  <div id="divnav" class="container-fluid">
-    <nav id="nav" class="navbar navbar-expand-sm fixed-top navbar-dark ">
+  <div id="navporti" class="container-fluid">
+    <nav id="navporti2" class="navbar navbar-expand-sm fixed-top navbar-dark ">
         <a id="imglogo" class="navbar-brand" href="#"><img src="imagens/fav.png" width="38px" alt=""></a>
             <!--Recolhendo a barra. init-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -77,7 +81,51 @@
       </div>
 </header>
 <body>
-
+<div id="porticapa" class="container-fluid">
+  <div class="col-sm-3"></div>
+    <div class="col-sm-4"><h1 id="rec">Confira aqui<br><span id="rel">tudo</span> que<br> temos para<br>você. <br>
+      <a  id="conhecer" href="https://br.wordpress.org/" target="target-blank"><h5 id="linkesc">O que é wordpress?<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+      </svg></h5></a></h1></div>
+     <div class="col-sm-1"></div>
+      <div class="col-sm-4"></div>
+</div>
+<!--Website-->
+<div id="website" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-4"><h1 id="web">Website atual e responsivo</h1><p>Website é um conjunto de paginas agrupadas, ou até<br>
+    mesmo uma única página disponibilizada na internet com algumas finalidades.</p>
+    <p>Há diversos tipos de websites disponíveis na internet: institucionais, informativos, pessoais, comunitários, etc. <br>
+    Cada website possui um objetivo, de acordo com o público ao qual é direcionado. <br>
+    É o propósito do site que dirá para o webdesigner como trabalhar.</p>
+    
+      <a id="conhecer" href="#"><h5 id="linkescuro">Adquira já o seu<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+      </svg></h5></a></div>
+    <div class="col-sm-2"></div>
+    <div class="col-sm-5"><img id="web" src="imagens/website.png" class="img-fluid" width="350px" alt="website"></div>
+  </div>
+</div>
+<!--Website-->
+<!--SEO-->
+<div id="SEO" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-4"><h1 id="web">SEO de alta performance</h1><p>Website é um conjunto de paginas agrupadas, ou até<br>
+    mesmo uma única página disponibilizada na internet com algumas finalidades.</p>
+    <p>Há diversos tipos de websites disponíveis na internet: institucionais, informativos, pessoais, comunitários, etc. <br>
+    Cada website possui um objetivo, de acordo com o público ao qual é direcionado. <br>
+    É o propósito do site que dirá para o webdesigner como trabalhar.</p>
+    
+      <a id="conhecer" href="#"><h5 id="linkescuro">Esteja no topo<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+      </svg></h5></a></div>
+    <div class="col-sm-2"></div>
+    <div class="col-sm-5"><img id="web" src="imagens/SEo.png" class="img-fluid" width="350px" alt="seo"></div>
+  </div>
+</div>
+<!--SEO-->
 <!---Footer-->
 <div id="list1" class="container-fluid">
     <div class="row">
@@ -93,10 +141,10 @@
       <div class="col-sm-3">
         <p>Produtos</p>
         <ul id="listfooter">
-          <li>Web sites</li>
-          <li>Artes gráficas</li>
+          <li><a id="footer" href="#website">Web sites</a></li>
           <li>SEO</li>
           <li>Gestão de Ads</li>
+          <li>Copyright</li>
         </ul>
       </div>
       <div class="col-sm-3">

@@ -15,6 +15,10 @@
      list-style-type: none;
  }
 
+ a#footer{
+     color: white;
+ }
+
  @media (min-width: 1001px){
 
 body{
@@ -45,6 +49,7 @@ a#imglogo{
     height: 100%;
     background-color: #ED254E;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 div #seta{
@@ -135,6 +140,7 @@ img#word{
 div#corpo6{
     background-image: url(../imagens/usuario.png);
     width: 100%;
+    background-size: cover;
 }
 
 h1#rec{
@@ -157,6 +163,7 @@ div#corpo7{
     width: 100%;
     margin-top: -20px;
     margin-bottom: -8px;
+    background-size: cover;
 }
 
 
