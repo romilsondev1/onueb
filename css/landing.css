@@ -43,6 +43,7 @@ div#title{
     background-size: cover;
     background-position: fixed;
     background-repeat: no-repeat;
+    padding-bottom: 55px;
 }
 
 h2#title1{
