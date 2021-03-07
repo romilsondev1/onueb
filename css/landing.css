@@ -88,8 +88,8 @@ input#um{
 }
 
 #button {
-    background-color: #ED254E;
-    border-color: #ED254E;
+    background-color: #fe6500;
+    border-color: #fe6500;
     border-radius: 8px;
     width: 320px;
     height: 50px;
@@ -131,7 +131,7 @@ h2#web{
 }
 
 #linkescuro{
-    color: #ED254E;
+    color: #fe6500;
 }
 
 img#web{
@@ -172,11 +172,11 @@ section#ferramenta{
 
 div#blocoferr{
     border-radius: 30px;
-    background-color: #ED254E;
+    background-color: #fe6500;
 }
 
 #footer{
-    background-color: #ED254E;
+    background-color: #fe6500;
     margin-bottom: 0px;
 }
 
